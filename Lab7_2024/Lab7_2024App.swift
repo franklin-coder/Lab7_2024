@@ -1,11 +1,5 @@
-//
-//  Lab7_2024App.swift
-//  Lab7_2024
-//
-//  Created by macadmin on 2023-06-22.
-//
-
 import SwiftUI
+import SwiftData
 
 @main
 struct Lab7_2024App: App {
@@ -13,5 +7,6 @@ struct Lab7_2024App: App {
         WindowGroup {
             ContentView()
         }
+        .modelContainer(for: Treasure.self)
     }
 }

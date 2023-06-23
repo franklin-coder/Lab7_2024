@@ -14,6 +14,12 @@
 		460F12B62A449F3B0039EC6E /* Lab7_2024Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460F12B52A449F3B0039EC6E /* Lab7_2024Tests.swift */; };
 		460F12C02A449F3B0039EC6E /* Lab7_2024UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460F12BF2A449F3B0039EC6E /* Lab7_2024UITests.swift */; };
 		460F12C22A449F3B0039EC6E /* Lab7_2024UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460F12C12A449F3B0039EC6E /* Lab7_2024UITestsLaunchTests.swift */; };
+		460F12D62A449F900039EC6E /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460F12CE2A449F6C0039EC6E /* SettingsView.swift */; };
+		460F12D72A449F900039EC6E /* Treasure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460F12CF2A449F6D0039EC6E /* Treasure.swift */; };
+		460F12D82A449F900039EC6E /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460F12D02A449F710039EC6E /* GameView.swift */; };
+		460F12DA2A449F900039EC6E /* Board.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460F12D22A449F7C0039EC6E /* Board.swift */; };
+		460F12DB2A449F900039EC6E /* Tile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460F12D32A449F7F0039EC6E /* Tile.swift */; };
+		46E275B92A44BAFF00F37D4A /* RowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46E275B82A44BAFF00F37D4A /* RowView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +50,12 @@
 		460F12BB2A449F3B0039EC6E /* Lab7_2024UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Lab7_2024UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		460F12BF2A449F3B0039EC6E /* Lab7_2024UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lab7_2024UITests.swift; sourceTree = "<group>"; };
 		460F12C12A449F3B0039EC6E /* Lab7_2024UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lab7_2024UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		460F12CE2A449F6C0039EC6E /* SettingsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		460F12CF2A449F6D0039EC6E /* Treasure.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Treasure.swift; sourceTree = "<group>"; };
+		460F12D02A449F710039EC6E /* GameView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
+		460F12D22A449F7C0039EC6E /* Board.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Board.swift; sourceTree = "<group>"; };
+		460F12D32A449F7F0039EC6E /* Tile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tile.swift; sourceTree = "<group>"; };
+		46E275B82A44BAFF00F37D4A /* RowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RowView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,9 +106,15 @@
 		460F12A32A449F390039EC6E /* Lab7_2024 */ = {
 			isa = PBXGroup;
 			children = (
-				460F12A42A449F390039EC6E /* Lab7_2024App.swift */,
-				460F12A62A449F390039EC6E /* ContentView.swift */,
 				460F12A82A449F3A0039EC6E /* Assets.xcassets */,
+				460F12D22A449F7C0039EC6E /* Board.swift */,
+				460F12A62A449F390039EC6E /* ContentView.swift */,
+				460F12D02A449F710039EC6E /* GameView.swift */,
+				460F12A42A449F390039EC6E /* Lab7_2024App.swift */,
+				46E275B82A44BAFF00F37D4A /* RowView.swift */,
+				460F12CE2A449F6C0039EC6E /* SettingsView.swift */,
+				460F12D32A449F7F0039EC6E /* Tile.swift */,
+				460F12CF2A449F6D0039EC6E /* Treasure.swift */,
 				460F12AA2A449F3A0039EC6E /* Preview Content */,
 			);
 			path = Lab7_2024;
@@ -257,8 +275,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				460F12DA2A449F900039EC6E /* Board.swift in Sources */,
+				460F12D72A449F900039EC6E /* Treasure.swift in Sources */,
+				460F12D62A449F900039EC6E /* SettingsView.swift in Sources */,
+				46E275B92A44BAFF00F37D4A /* RowView.swift in Sources */,
+				460F12DB2A449F900039EC6E /* Tile.swift in Sources */,
 				460F12A72A449F390039EC6E /* ContentView.swift in Sources */,
 				460F12A52A449F390039EC6E /* Lab7_2024App.swift in Sources */,
+				460F12D82A449F900039EC6E /* GameView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
