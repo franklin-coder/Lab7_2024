@@ -75,5 +75,8 @@ struct GameView: View {
 }
 
 #Preview {
-    ContentView()
+    MainActor.assumeIsolated {
+        ContentView()
+            .modelContainer(for: Treasure.self)
+    }
 }

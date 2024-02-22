@@ -1,3 +1,4 @@
+import SwiftUI
 import SwiftData
 
 /// An individual tile on the map.
@@ -15,11 +16,18 @@ import SwiftData
         }
     }
     
+    var row = -1
+    var col = -1
+    
+    var id = UUID()
+    
     /// Creates a Tile with the given contents.  The Tile will initially not be revealed.
     /// - Parameter contents: The name of the treasure; must match a string found in SF Symbols; no error checking is done on this parameter.
-    init(contents: String) {
+    init(contents: String, row: Int, col: Int) {
         self.contents = contents
         self.revealed = false
+        self.row = row
+        self.col = col
     }
     
     /// Reveals the Tile.
@@ -30,11 +38,10 @@ import SwiftData
 
 extension Tile: Hashable {
         static func == (lhs: Tile, rhs: Tile) -> Bool {
-            lhs.id == rhs.id
+            return lhs.id == rhs.id
         }
     
         func hash(into hasher: inout Hasher) {
-            hasher.combine(contents)
-            hasher.combine(revealed)
+            hasher.combine(id)
         }
 }

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "0396AAA8-2AAE-4B71-ADD3-58DAFB65F4D7"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.ExceptionBreakpoint">
+         <BreakpointContent
+            uuid = "F01CED5C-A743-47E6-A17B-FAFB6E34652B"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            breakpointStackSelectionBehavior = "1"
+            scope = "1"
+            stopOnStyle = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.SwiftErrorBreakpoint">
+         <BreakpointContent
+            uuid = "42234292-9CC6-43CD-AF80-73F4C9F847FD"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D6896F39-714A-4FDB-93F3-CE138875011B"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Lab7_2024/Board.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "29"
+            endingLineNumber = "29"
+            landmarkName = "searchRow(treasure:randomRow:randomCol:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9E75212A-8F20-4DA7-9136-BD602BDDC6D4"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Lab7_2024/Board.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "37"
+            endingLineNumber = "37"
+            landmarkName = "searchRow(treasure:randomRow:randomCol:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8F5FC3F8-372A-42D4-BF20-766C7C7C015E"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Lab7_2024/Board.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "51"
+            endingLineNumber = "51"
+            landmarkName = "searchColumn(treasure:randomRow:randomCol:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5C7F7FFE-8D1B-4F25-9AB7-0F27141DBB91"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Lab7_2024/Board.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "59"
+            endingLineNumber = "59"
+            landmarkName = "searchColumn(treasure:randomRow:randomCol:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "5C7F7FFE-8D1B-4F25-9AB7-0F27141DBB91 - 67d191f0db303cb4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Lab7_2024.Board.searchColumn(treasure: Lab7_2024.Treasure, randomRow: Swift.Int, randomCol: Swift.Int) -&gt; Swift.Bool"
+                  moduleName = "Lab7_2024"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/michael/Desktop/Lab7_2024/Lab7_2024/Board.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "59"
+                  endingLineNumber = "59"
+                  offsetFromSymbolStart = "1972">
+               </Location>
+               <Location
+                  uuid = "5C7F7FFE-8D1B-4F25-9AB7-0F27141DBB91 - 67d191f0db303cb4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Lab7_2024.Board.searchColumn(treasure: Lab7_2024.Treasure, randomRow: Swift.Int, randomCol: Swift.Int) -&gt; Swift.Bool"
+                  moduleName = "Lab7_2024"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/michael/Desktop/Lab7_2024/Lab7_2024/Board.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "59"
+                  endingLineNumber = "59"
+                  offsetFromSymbolStart = "1968">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

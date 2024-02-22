@@ -4,7 +4,7 @@ import SwiftData
 /// Contains the collection of tiles, making up the current game board.
 struct Board {
     /// The actual board.
-    var tiles = [[Tile(contents: emptyTreasure)]]
+    var tiles: [[Tile]]
     
     /// Number of columns.
     var numCols = 1
@@ -25,13 +25,13 @@ struct Board {
     /// - Returns: Whether or not the treasure could be placed.
     private func searchRow(treasure: Treasure, randomRow: Int, randomCol: Int) -> Bool {
         for i in randomRow..<randomRow + treasure.clusterSize {
-            if tiles[i % numRows][randomCol].contents != emptyTreasure {
+            if tiles[randomRow][i % numCols].contents != emptyTreasure {
                 return false
             }
         }
         
         for i in randomRow..<randomRow + treasure.clusterSize {
-            tiles[i % numRows][randomCol].contents = treasure.name
+            tiles[randomRow][i % numCols].contents = treasure.name
         }
         
         return true
@@ -47,21 +47,21 @@ struct Board {
     /// - Returns: Whether or not the treasure could be placed.
     private func searchColumn(treasure: Treasure, randomRow: Int, randomCol: Int) -> Bool {
         for i in randomCol..<randomCol + treasure.clusterSize {
-            if tiles[randomRow][i % numCols].contents != emptyTreasure {
+            if tiles[i % numRows][randomCol].contents != emptyTreasure {
                 return false
             }
         }
         
         for i in randomCol..<randomCol + treasure.clusterSize {
-            tiles[randomRow][i % numCols].contents = treasure.name
+            tiles[i % numRows][randomCol].contents = treasure.name
         }
         
         return true
     }
-
+    
     /// Sets up a 1 x 1 board containing a single, empty TIle
     init() {
-        tiles = [[Tile(contents: emptyTreasure)]]
+        tiles = [[Tile(contents: emptyTreasure, row: 0, col: 0)]]
         numCols = 1
         numRows = 1
         numTreasures = 0
@@ -88,7 +88,7 @@ struct Board {
         for i in 0..<numRows {
             var newRow = [Tile]()
             for j in 0..<numCols {
-                newRow.append(Tile(contents: emptyTreasure))
+                newRow.append(Tile(contents: emptyTreasure, row: i, col: j))
             }
             tiles.append(newRow)
         }
@@ -99,11 +99,10 @@ struct Board {
                 let randomCol = Int.random(in: 0..<numCols)
                 let randomRow = Int.random(in: 0..<numRows)
                 
-                if searchRow(treasure: treasure, randomRow: randomRow, randomCol: randomCol) {
+                if Int.random(in: 0...1) == 0 && searchRow(treasure: treasure, randomRow: randomRow, randomCol: randomCol) {
                     break
                 }
-                
-                if searchColumn(treasure: treasure, randomRow: randomRow, randomCol: randomCol) {
+                else if searchColumn(treasure: treasure, randomRow: randomRow, randomCol: randomCol) {
                     break
                 }
             }
