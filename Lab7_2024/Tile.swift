@@ -16,13 +16,19 @@ import SwiftData
         }
     }
     
+    /// The row location of the tile
     var row = -1
+    
+    /// The column location of the tile
     var col = -1
     
+    /// The unique ID of the tile
     var id = UUID()
     
     /// Creates a Tile with the given contents.  The Tile will initially not be revealed.
     /// - Parameter contents: The name of the treasure; must match a string found in SF Symbols; no error checking is done on this parameter.
+    /// - Parameter row: The row location of the tile
+    /// - Parameter col: The column location of the tile
     init(contents: String, row: Int, col: Int) {
         self.contents = contents
         self.revealed = false

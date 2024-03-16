@@ -22,9 +22,6 @@ struct GameView: View {
     /// The list of treasures that must be placed.
     @Query var treasures : [Treasure]
 
-    /// The context used to save the list of treasures and the board state.
-    @Environment(\.modelContext) private var modelContext
-
     /// The total number of revelations so far.  This is updated every time a hidden tile is revealed.
     @State var numReveals = 0
     
