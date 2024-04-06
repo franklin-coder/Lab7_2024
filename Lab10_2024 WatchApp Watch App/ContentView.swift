@@ -5,7 +5,7 @@
 //  Created by IMD 224 on 2024-04-03.
 //
 
-//import SwiftUI
+import SwiftUI
 //
 //struct ContentView: View {
 //    var body: some View {
@@ -18,7 +18,7 @@
 //        .padding()
 //    }
 //}
-//
+
 //#Preview {
 //    ContentView()
 //}

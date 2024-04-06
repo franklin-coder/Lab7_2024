@@ -21,7 +21,6 @@
 		460F12DB2A449F900039EC6E /* Tile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460F12D32A449F7F0039EC6E /* Tile.swift */; };
 		46E275B92A44BAFF00F37D4A /* RowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46E275B82A44BAFF00F37D4A /* RowView.swift */; };
 		765DB83A2BBE29370045CD61 /* Lab10_2024 WatchApp Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 765DB8392BBE29360045CD61 /* Lab10_2024 WatchApp Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		765DB8412BBE29370045CD61 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 765DB8402BBE29370045CD61 /* ContentView.swift */; };
 		765DB8432BBE29390045CD61 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 765DB8422BBE29390045CD61 /* Assets.xcassets */; };
 		765DB8462BBE29390045CD61 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 765DB8452BBE29390045CD61 /* Preview Assets.xcassets */; };
 		765DB8502BBE293A0045CD61 /* Lab10_2024_WatchApp_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 765DB84F2BBE293A0045CD61 /* Lab10_2024_WatchApp_Watch_AppTests.swift */; };
@@ -30,14 +29,11 @@
 		765DB8712BBE2A380045CD61 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460F12D02A449F710039EC6E /* GameView.swift */; };
 		765DB8722BBE2A3B0045CD61 /* Board.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460F12D22A449F7C0039EC6E /* Board.swift */; };
 		765DB8732BBE2A3D0045CD61 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460F12A62A449F390039EC6E /* ContentView.swift */; };
-		765DB8742BBE2A440045CD61 /* Lab7_2024App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460F12A42A449F390039EC6E /* Lab7_2024App.swift */; };
 		765DB8752BBE2A470045CD61 /* RowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46E275B82A44BAFF00F37D4A /* RowView.swift */; };
 		765DB8762BBE2A4A0045CD61 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460F12CE2A449F6C0039EC6E /* SettingsView.swift */; };
 		765DB8772BBE2A4C0045CD61 /* Tile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460F12D32A449F7F0039EC6E /* Tile.swift */; };
 		765DB8782BBE2A4F0045CD61 /* Treasure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460F12CF2A449F6D0039EC6E /* Treasure.swift */; };
 		765DB8792BBE2A5F0045CD61 /* Lab10_2024_WatchAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 765DB83E2BBE29370045CD61 /* Lab10_2024_WatchAppApp.swift */; };
-		765DB87A2BBE2C8E0045CD61 /* Lab10_2024_WatchAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 765DB83E2BBE29370045CD61 /* Lab10_2024_WatchAppApp.swift */; };
-		765DB87B2BBE2C990045CD61 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 765DB8402BBE29370045CD61 /* ContentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -112,7 +108,6 @@
 		765DB8342BBE29360045CD61 /* Lab10_2024 WatchApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lab10_2024 WatchApp.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		765DB8392BBE29360045CD61 /* Lab10_2024 WatchApp Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lab10_2024 WatchApp Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		765DB83E2BBE29370045CD61 /* Lab10_2024_WatchAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lab10_2024_WatchAppApp.swift; sourceTree = "<group>"; };
-		765DB8402BBE29370045CD61 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		765DB8422BBE29390045CD61 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		765DB8452BBE29390045CD61 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		765DB84B2BBE29390045CD61 /* Lab10_2024 WatchApp Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Lab10_2024 WatchApp Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -241,7 +236,6 @@
 			isa = PBXGroup;
 			children = (
 				765DB83E2BBE29370045CD61 /* Lab10_2024_WatchAppApp.swift */,
-				765DB8402BBE29370045CD61 /* ContentView.swift */,
 				765DB8422BBE29390045CD61 /* Assets.xcassets */,
 				765DB8442BBE29390045CD61 /* Preview Content */,
 			);
@@ -524,10 +518,8 @@
 				460F12DA2A449F900039EC6E /* Board.swift in Sources */,
 				460F12D72A449F900039EC6E /* Treasure.swift in Sources */,
 				460F12D62A449F900039EC6E /* SettingsView.swift in Sources */,
-				765DB87A2BBE2C8E0045CD61 /* Lab10_2024_WatchAppApp.swift in Sources */,
 				46E275B92A44BAFF00F37D4A /* RowView.swift in Sources */,
 				460F12DB2A449F900039EC6E /* Tile.swift in Sources */,
-				765DB87B2BBE2C990045CD61 /* ContentView.swift in Sources */,
 				460F12A72A449F390039EC6E /* ContentView.swift in Sources */,
 				460F12A52A449F390039EC6E /* Lab7_2024App.swift in Sources */,
 				460F12D82A449F900039EC6E /* GameView.swift in Sources */,
@@ -555,7 +547,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				765DB8412BBE29370045CD61 /* ContentView.swift in Sources */,
 				765DB8762BBE2A4A0045CD61 /* SettingsView.swift in Sources */,
 				765DB8732BBE2A3D0045CD61 /* ContentView.swift in Sources */,
 				765DB8752BBE2A470045CD61 /* RowView.swift in Sources */,
@@ -564,7 +555,6 @@
 				765DB8722BBE2A3B0045CD61 /* Board.swift in Sources */,
 				765DB8782BBE2A4F0045CD61 /* Treasure.swift in Sources */,
 				765DB8772BBE2A4C0045CD61 /* Tile.swift in Sources */,
-				765DB8742BBE2A440045CD61 /* Lab7_2024App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

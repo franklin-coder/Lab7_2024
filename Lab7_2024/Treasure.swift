@@ -4,7 +4,7 @@ import SwiftData
 let emptyTreasure = "circle"
 
 /// An unexplored treasure.
-let unexploredTreasure = "questionmark"
+var unexploredTreasure = "questionmark"
 
 /// An individual treasure.
 @Model class Treasure : Identifiable {

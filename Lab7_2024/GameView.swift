@@ -67,6 +67,8 @@ struct GameView: View {
             board = Board(treasures: treasures)
             numReveals = 0
             numRemaining = board.numTreasures
+            
+            print("\(board.numTreasures)")
         }
     }
 }
